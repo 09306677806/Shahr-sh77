@@ -88,7 +88,7 @@ jobs:
       #
       # https://docs.github.com/actions/reference/context-and-expression-syntax-for-github-actions#job-status-check-functions
 
-      - uses: actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535
+      - uses: actions/upload-artifact@c7d193f32edcb7bfad88892161225aeda64e9392
         if: ${{ failure() }}
         with:
           name: broken_links
