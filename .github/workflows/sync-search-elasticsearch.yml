@@ -34,7 +34,7 @@ jobs:
           exit 1 # prevents further steps from running
 
       - name: Check out repo
-        uses: actions/checkout@dcd71f646680f2efd8db4afa5ad64fdcba30e748
+        uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633
 
       # TEMPORARY UNTIL WE HAVE A PRODUCTION ELASTICSEARCH
       - uses: getong/elasticsearch-action@95b501ab0c83dee0aac7c39b7cea3723bef14954
